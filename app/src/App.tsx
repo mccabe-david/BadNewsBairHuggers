@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
+import { HashRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
 import portraitPlaceholder from './assets/Portrait_Placeholder.png'
 import teamLogo from './assets/teamLogo.jpg'
 import {
@@ -581,8 +581,8 @@ function getMonthIndexForDate(
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppShell />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
