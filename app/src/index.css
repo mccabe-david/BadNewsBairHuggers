@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Bebas Neue", sans-serif;
+  --color-team-navy: #0c214a;
+  --color-team-navy-soft: #143f7e;
+  --color-team-green: #2d9b61;
+  --color-team-green-deep: #207a4f;
+  --color-team-ink: #eef5f2;
+  --color-team-slate: #9db0c4;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #061123;
+  }
+
+  body {
+    @apply min-w-[320px] bg-[radial-gradient(circle_at_top,rgba(45,155,97,0.16),transparent_26%),radial-gradient(circle_at_bottom_right,rgba(20,63,126,0.28),transparent_24%),linear-gradient(180deg,#061123,#08162c_32%,#0a1a31_100%)] text-team-ink antialiased;
+    background-color: #061123;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display leading-[0.95] tracking-[0.03em];
+  }
+
+  p {
+    @apply m-0;
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+}
