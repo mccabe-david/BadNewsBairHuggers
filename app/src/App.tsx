@@ -467,11 +467,20 @@ function SchedulePage() {
                 </p>
                 <h3 className="mt-2 text-[clamp(1.6rem,2.4vw,2.2rem)]">{game.opponent}</h3>
               </div>
-              <div className="text-left md:text-right">
+              <div className="flex flex-col items-start gap-1 md:items-end">
                 <strong className="block text-team-ink">
                   {formatDate(game.dateTime, { hour: 'numeric', minute: '2-digit' })}
                 </strong>
                 <span className="text-team-slate">{game.location}</span>
+                <span
+                  className={`inline-block rounded-full px-2.5 py-0.5 text-[0.7rem] font-bold uppercase tracking-widest ${
+                    game.isHome
+                      ? 'bg-team-green/20 text-team-green'
+                      : 'bg-white/10 text-white/60'
+                  }`}
+                >
+                  {game.isHome ? 'Home' : 'Away'}
+                </span>
               </div>
             </article>
           ))}
