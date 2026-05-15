@@ -19,9 +19,9 @@ export const teamProfile = {
 }
 
 export const lastGameStory = {
-  title: 'Ugly early, loud late, deeply on brand.',
+  title: 'Played tired, played hard, played Harvard Gardens.',
   summary:
-    'Bad News Bairs opened the season on May 1, 2026 with a wobble, rallied with a string of chaotic singles, and nearly flipped the whole thing in the final inning. A shaky first couple of frames gave way to better at-bats, louder dugout energy, and the kind of momentum swing that makes everyone suddenly believe the comeback is inevitable. A couple of sharp defensive plays settled things down, the bats finally woke up, and by the last inning the whole game had turned into exactly the kind of scrappy, weird, extremely entertaining softball the Bairs seem built for. They did not leave with a win, but they absolutely left with a tone for the season.',
+    'The Bairs came into Game 2 already a full game deep, legs heavy and lungs still burning from the first matchup of the night. Against the Slides — widely regarded as the best team in the league — that was always going to be a tall order. They punched back early, putting up runs in the first few innings and giving the dugout something to get loud about. Parks was electric, retiring the side in one inning entirely on their own. Madi held it down at first with a handful of plays that made the game look closer than it was. But the Slides are the Slides, and as the innings wore on, the gap became real. It wasn\'t close by the end — but the Bairs left loud, headed straight to Harvard Gardens, and called it a night worth celebrating.',
 }
 
 export const instagramPosts: readonly InstagramPostData[] = [
@@ -92,12 +92,11 @@ export const roster: readonly RosterPlayer[] = [
   {
     name: 'Beau H',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'One of the few Bairs trusted on the mound, and he takes it seriously. Surgical with his pitches, dependable at the plate, and the kind of player the team quietly builds around.',
   },
   {
     name: 'Damaris',
-    blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+    blurb: 'Brings it when called upon and keeps things simple.',
   },
   {
     name: 'Dana',
@@ -105,40 +104,40 @@ export const roster: readonly RosterPlayer[] = [
       'Calls off teammates with full main-character energy and closes gaps fast enough to start arguments about physics.',
   },
   {
+    name: 'David M',
+    blurb:
+      'Resident DJ, occasional fielder, occasional batter, full-time speedster. When he decides to play, good luck catching him.',
+  },
+  {
     name: 'Derek',
     nickname: 'Dog Daddy',
     blurb:
-      'Collects screamers, side-eyes bunts, and throws across the diamond like the inning insulted her personally.',
+      'Locks down third base and high-fives every single teammate on the run-in at the end of an inning without fail. Great beard. Unimpeachable playlist.',
   },
   {
     name: 'Dylan',
-    blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+    blurb: 'Laid-back energy, quietly solid game. Doesn\'t chase the spotlight, doesn\'t need to.',
   },
   {
     name: 'Emily',
-    blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+    blurb: 'Reliable on both sides of the ball and always somewhere useful.',
   },
   {
     name: 'Elise',
-    blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+    blurb: 'Keeps her head in the game and finds a way to contribute every time out.',
   },
   {
     name: 'Kelly',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'Patrols the outfield and punishes mistakes at the plate. One of the few Bairs who can genuinely change a game with a single swing.',
   },
   {
     name: 'Kelly',
-    blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+    blurb: 'Steady presence in the lineup and doesn\'t make things complicated.',
   },
   {
     name: 'Lauren',
-    blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+    blurb: 'Shows up, suits up, gets it done.',
   },
   {
     name: 'Madi W',
@@ -150,28 +149,28 @@ export const roster: readonly RosterPlayer[] = [
     name: 'Patrick T',
     nickname: 'MV-Patrick',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'Quiet until the game asks something of him, then the shortstop position suddenly looks effortless. One of the most talented players on the field, and the Bairs know it even if he won\'t say so.',
   },
   {
     name: 'Parks',
     nickname: 'Hype Man',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'Comes in loud, waits for exactly the right moment, then buries the room with one perfectly timed deadpan. Trauma surgeon by day, which somehow explains everything.',
   },
   {
     name: 'Sarah N',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'Less interested in the scoreboard than the energy in the dugout, and the dugout is better for it.',
   },
   {
     name: 'Sarah R',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'Primarily here for the conversation, secondarily here for the softball, and always the most entertaining person in a five-foot radius.',
   },
   {
     name: 'Taylor F',
     blurb:
-      'Quiet for two innings, then absolutely smokes a ball and jogs to first like it was no big deal.',
+      'The teammate you want in every dugout — warm, encouraging, and somehow always the right person to talk to between innings. Pitches on occasion and brings the same easy calm to the mound as she does to everything else.',
   },
 ]
 
