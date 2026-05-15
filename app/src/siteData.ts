@@ -28,32 +28,32 @@ export const instagramPosts: readonly InstagramPostData[] = [
   {
     title: 'Latest post',
     caption: 'Most recent Bad News Bairs post.',
-    url: 'https://www.instagram.com/bad_news_bairs/p/DTbVR3mgF5k/',
-    embedUrl: 'https://www.instagram.com/p/DTbVR3mgF5k/embed/captioned/',
+    url: 'https://www.instagram.com/bad_news_bairs/p/DYNHvzhAL1s/',
+    embedUrl: 'https://www.instagram.com/p/DYNHvzhAL1s/embed/captioned/',
   },
   {
     title: 'Second most recent post',
     caption: 'Recent dugout update from the feed.',
-    url: 'https://www.instagram.com/bad_news_bairs/p/DOyWMvMgPse/',
-    embedUrl: 'https://www.instagram.com/p/DOyWMvMgPse/embed/captioned/',
+    url: 'https://www.instagram.com/bad_news_bairs/p/DTbVR3mgF5k/',
+    embedUrl: 'https://www.instagram.com/p/DTbVR3mgF5k/embed/captioned/',
   },
   {
     title: 'Third most recent post',
     caption: 'Recent team post from the Bad News Bairs feed.',
-    url: 'https://www.instagram.com/bad_news_bairs/p/DOf8DBlAM-Q/',
-    embedUrl: 'https://www.instagram.com/p/DOf8DBlAM-Q/embed/captioned/',
+    url: 'https://www.instagram.com/bad_news_bairs/p/DOyWMvMgPse/',
+    embedUrl: 'https://www.instagram.com/p/DOyWMvMgPse/embed/captioned/',
   },
   {
     title: 'Fourth most recent post',
     caption: 'Another recent game-day post from Instagram.',
-    url: 'https://www.instagram.com/bad_news_bairs/p/DOOL87RgG0F/',
-    embedUrl: 'https://www.instagram.com/p/DOOL87RgG0F/embed/captioned/',
+    url: 'https://www.instagram.com/bad_news_bairs/p/DOf8DBlAM-Q/',
+    embedUrl: 'https://www.instagram.com/p/DOf8DBlAM-Q/embed/captioned/',
   },
   {
     title: 'Fifth most recent post',
     caption: 'Older featured post from the current top five.',
-    url: 'https://www.instagram.com/bad_news_bairs/p/DOBNXsBgDJF/',
-    embedUrl: 'https://www.instagram.com/p/DOBNXsBgDJF/embed/captioned/',
+    url: 'https://www.instagram.com/bad_news_bairs/p/DOOL87RgG0F/',
+    embedUrl: 'https://www.instagram.com/p/DOOL87RgG0F/embed/captioned/',
   },
 ]
 
